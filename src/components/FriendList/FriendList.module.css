@@ -46,3 +46,12 @@
 .offline {
   color: red;
 }
+.onlineText {
+  color: green;
+  font-weight: bold;
+}
+
+.offlineText {
+  color: red;
+  font-weight: bold;
+}
