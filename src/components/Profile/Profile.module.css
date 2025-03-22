@@ -2,9 +2,10 @@
   width: 300px;
   background-color: pink;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(190, 12, 210, 0.1);
+  box-shadow: 0 4px 6px rgba(149, 3, 91, 0.1);
   text-align: center;
   padding: 20px;
+  border: 2px solid rgb(232, 32, 162);
 }
 
 .description {
@@ -33,7 +34,7 @@
   justify-content: space-around;
   padding: 0;
   list-style: none;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #eb279d;
   padding-top: 10px;
   color: #bd21e0;
 }
