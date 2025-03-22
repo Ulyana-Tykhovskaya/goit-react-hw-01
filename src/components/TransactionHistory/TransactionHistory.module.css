@@ -1,0 +1,38 @@
+.transactionList {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.transactionList thead tr {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ccc;
+}
+
+.transactionList th {
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.transactionList tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.transactionList tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transactionList tbody tr:hover {
+  background-color: #eef;
+}
+
+.transactionList td {
+  padding: 10px 15px;
+}
+
+.transactionList td:first-child {
+  font-weight: bold;
+}

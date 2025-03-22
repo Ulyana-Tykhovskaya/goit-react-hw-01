@@ -1,11 +1,10 @@
 .profile {
   width: 300px;
-  background-color: pink;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(149, 3, 91, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 20px;
-  border: 2px solid rgb(232, 32, 162);
 }
 
 .description {
@@ -21,12 +20,11 @@
 .name {
   font-size: 20px;
   font-weight: bold;
-  color: #bd21e0;
 }
 
 .tag,
 .location {
-  color: rgb(211, 27, 45);
+  color: gray;
 }
 
 .stats {
@@ -34,9 +32,8 @@
   justify-content: space-around;
   padding: 0;
   list-style: none;
-  border-top: 1px solid #eb279d;
+  border-top: 1px solid #ccc;
   padding-top: 10px;
-  color: #bd21e0;
 }
 
 .stats li {
@@ -47,7 +44,7 @@
 
 .label {
   font-size: 14px;
-  color: rgb(211, 27, 45);
+  color: gray;
 }
 
 .quantity {
